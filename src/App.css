@@ -1,0 +1,73 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: EDI_custom_font;
+    src: url(../public/Kanit-Regular.ttf);
+}
+
+.custom-fonts {
+    font-family: EDI_custom_font !important;
+}
+
+
+.css-1eaa915-MuiButtonBase-root-MuiPaginationItem-root {
+    color: var(--dynamic-color, initial-color) !important;
+}
+
+.css-xex1up-MuiPaginationItem-root {
+    color: var(--dynamic-color, initial-color) !important;
+}
+
+.css-1eaa915-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    color: #fff !important;
+}
+
+.css-h125yc-MuiButtonBase-root-MuiIconButton-root {
+    color: gray !important;
+}
+
+.css-1wwfkq7-MuiList-root {
+    background-color: var(--dynamic-background-color, initial-color) !important;
+}
+
+/* .css-1ps6pg7-MuiPaper-root {
+    background: linear-gradient(195deg, #49a3f1, #1A73E8) !important;
+}
+
+.css-1qoy8mm-MuiButtonBase-root-MuiMenuItem-root {
+    color: #fff !important;
+} */
+
+.css-6cmau2-MuiTypography-root {
+    font-size: 1rem !important;
+}
+
+.css-ihtmg6-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    background: linear-gradient(195deg, #49a3f1, #1A73E8) !important;
+    color: #fff !important;
+}
+
+.css-14k1c67-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    background: linear-gradient(195deg, #49a3f1, #1A73E8) !important;
+    color: #fff !important;
+}
+
+.css-uk4jy3-MuiFormLabel-root-MuiInputLabel-root {
+    line-height: 1 !important;
+}
